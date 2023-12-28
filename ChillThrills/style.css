@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    background-color: #081b29;
+    color: #ededed;
+
+}
+.themessage{
+    display: flex;
+    height: 100vh;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+.contactus{
+    margin-top: 200px;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.homeimg img{
+    margin-top: 42px;
+    padding-left: 200px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 85px;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    color:#ededed;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 400;
+    margin-right: 35px;
+    transition: .3s;
+}
+
+.navbar a:hover{
+    color: #00abf0;
+    font-size:21px ;
+}
+
+.home{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    padding: 0 10%;
+    justify-content: center;
+}
+
+.home-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0 40px;
+    line-height: 1.9;
+    max-width: 700px;
+    text-align: center;
+}
+
+.home-content h1 , .contactus p   {
+    font-size: 56px;
+    font-weight: 700;
+}
+
+#themail a{
+    text-decoration: none;
+    font-size: 50px;
+    color: #ededed;
+}
+
+#themail{
+    margin: 20px 0 20px 0;
+}
+
+.themessage h1 , .contactus h3{
+    font-size: 56px;
+    font-weight: 700;
+    color: #00abf0;
+}
+
+.home-content h3 , .themessage p {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.home-content p {
+    font-size: 20px;
+    
+}
+
+.btn-box a{
+    width: 150px;
+    height: 100%;
+    background-color: transparent;
+    border: 2px solid #00abf0;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 19px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 60px 10px 60px;
+    transition: .39s;
+
+
+}
+
+.btn-box a:hover{
+    background-color: #00abf0;
+    color: #081b29;
+    padding: 12px 63px 12px 63px;
+}
+
+.socials{
+    position: absolute;
+    bottom: 40px;
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    
+    
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+}
+
+.social a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #00abf0;
+    background: transparent;
+    color: #ededed;
+    background-color: #ededed;
+    transition: .3s;
+}
+
+.socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #00abf0;
+    background: transparent;
+    color: #ededed;
+    background-color: #ededed;
+    transition: .3s;
+}
+
+.socials a:hover {
+    width: 45px;
+    height: 45px;
+    background-color: #00abf0;
+}
+
+.social a:hover{
+    width: 85px;
+    height: 85px;
+    background-color: lightseagreen;
+}
+
+
+
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+
+
+#mails{
+    height: 60px;
+    width: 700px;
+    margin-top: 40px;
+    font-size: 40px;
+    
+    
+}
+
+.mail input{
+    border-radius: 30px;
+    border: 5px solid #00abf0;
+}
